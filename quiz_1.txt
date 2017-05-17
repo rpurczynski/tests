@@ -1,0 +1,42 @@
+# To jest format pliku w którym zapisujemy pytania
+# oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
+# Niech + oznacza prawidłową odpowiedź
+# Znak - oznacza niepoprawną
+# Quiz powinien być jednokrotnego wyboru.
+
+# Poziom 1
+
+# Proszę dopisywać swoje pytania
+
+#Pytania Angelika
+
+"cin" to:
++ Obiekt
+- Klasa
+- Przestrzen nazw
+- Funkcja
+
+Skladniki struktury domyslnie opatrzone sa etykieta:
++ public
+- protected
+- private
+- zadna z powyzszych
+
+Ile argumentow moze przyjmowac destruktor klasy?
++ 0
+- 1
+- 2
+- dowolna liczbe
+
+Wyrazenie a.b oznacza:
++ skladowa b obiektu a
+- skladowa b obiektu wskazywanego przez wskaznik a
+- skladowa a obiektu b
+- skladowa a klasy b
+
+STL to:
++ Standard template library
+- System template library
+- Standard topics library
+- zadne z powyzszych
+

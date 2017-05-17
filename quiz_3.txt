@@ -1,0 +1,45 @@
+# To jest format pliku w którym zapisujemy pytania
+# oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
+# Niech + oznacza prawidłową odpowiedź
+# Znak - oznacza niepoprawną
+# Quiz powinien być jednokrotnego wyboru.
+
+# Poziom 1
+
+# Proszę dopisywać swoje pytania
+
+#Pytania Angelika
+
+Klasa dziedziczaca nie dziedziczy z klasy bazowej:
++ kazda z powyzszych odpowiedzi
+- konstruktorow i destruktora
+- przeladowanych operatorow
+- funkcji zaprzyjaznionych
+
+const int * wsk to:
++ wskaznik do stalego obiektu
+- staly wskaznik
+- wskaznik staly do obiketu stalego
+- zadna z powyzszych odpowiedzi
+
+Ktore z ponizszych wyrazen jest nieprawdilowa dyrektywa preprocesora?
++ #ifundef
+- #ifdef
+- #endif
+- #elif
+
+Ktore z ponizszych nie jest standardowym wyjatkiem w C++?
++ std::bad_creat
+- std::bad_alloc
+- std::bad_cast
+- std::bad_typeid
+
+class child: public parent1, public parent2 { } to przyklad:
++ dziedziczenia wielobazowego
+- dziedziczenia polimorficznego
+- dziedziczenia wirtualnego
+- dziedziczenia hierarhicznego
+
+# Proszę o dopisywanie pytań
+
+

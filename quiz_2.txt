@@ -1,0 +1,41 @@
+# To jest format pliku w którym zapisujemy pytania
+# oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
+# Niech + oznacza prawidłową odpowiedź
+# Znak - oznacza niepoprawną
+# Quiz powinien być jednokrotnego wyboru.
+
+# Poziom 1
+
+# Proszę dopisywać swoje pytania
+
+#Pytania Angelika
+
+Skladniki klasy opatrzone etykieta protected sa dostepne w:
++ danej klasie i w klasach dziedziczacych
+- danej klasie
+- wszedzie poza klasa
+- zadne z podanych
+
+Ktore z ponizszych nie jest slowem kluczowym w C++?
++ extends
+- volatile
+- friend
+- this
+
+____________ to funkcja skladowa, ktora powinna zostac ponownie zdefiniowana w klasach pochodnych.
++ funkcja wirtualna
+- funkcja zaprzyjazniona
+- funkcja statyczna
+- funkcja stala
+
+W C++ do rzucania wyjatkow uzywa sie slowa: 
++ throw
+- throws
+- threw
+- thrown
+
+Ktory operator jest operatorem potegowania w C++?
++ zaden z podanych
+- ^
+- **
+- ^^
