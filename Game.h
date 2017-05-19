@@ -2,6 +2,7 @@
 #define GAME_H_
 
 #include <iostream>
+#include <map>
 
 class Game
 {
@@ -10,9 +11,13 @@ public:
 	virtual ~Game();
 
 	int play();
+	int showResult();
+	void setBonusPoints(std::string points);
 
 	static int scorePoints;
 	static int questionsAsked;
+	int bonusPoints = 0;
+	std::map<int, std::string> ocena;
 
 private:
 };
