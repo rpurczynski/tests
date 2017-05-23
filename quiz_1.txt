@@ -40,3 +40,35 @@ STL to:
 - Standard topics library
 - zadne z powyzszych
 
+#Paweł D., pytania cpp zestaw 1
+
+Plik test.h do naszego kodu dolaczamy poprzez:
+- import "test.h" 
++ #include "test.h"  
+- add "test.h" 
+- INCLUDE "test.h" 
+
+Funkcja, ktora wywoluje sama siebie to: 
+- blad programisty
++ rekurencja
+- polimorfizm
+- refaktoryzacja kodu
+
+Funkcja void foo(int& x, int y, char * z) zwraca:
+- adres
+- int
+- wskaznik
++ nic nie zwraca
+
+Aby zadzialal kod: cout << "Hello world" << endl; nalezy:
+- dodac std:: przed cout oraz przed endl
+- dodac przed kodem using namespace std;
+- dodac #include <iostream> na poczatku pliku
++ wszystkie z pozyzszych sa prawidlowe
+
+Kod: int i = 1; i++; ++i; i--; printf("%d", i); wyprintuje:
+- nic bo kod sie nie skompiluje
+- 1
++ 2
+- 3
+
