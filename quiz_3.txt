@@ -40,6 +40,35 @@ class child: public parent1, public parent2 { } to przyklad:
 - dziedziczenia wirtualnego
 - dziedziczenia hierarhicznego
 
-# Proszę o dopisywanie pytań
+#Paweł D., pytania cpp zestaw 3
+Tworzac zmienna ze slowem const mozemy powiedziec, ze:
++ bedzie ona dla nas "read only"
+- bedzie ona dla nas "write only"
+- bedzie ona dla nas "read-write"
+- zadne z powyzszych
+
+Po wykonaniu kodu i = 1; j = i++; zmienne beda wynosic:
++ i = 2, j = 1
+- i = 2, j = 2
+- i = 1, j = 1
+- i = 1, j = 2
+
+Po wykonaniu kodu i = 1; j = ++i; zmienne beda wynosic:
+- i = 2, j = 1
++ i = 2, j = 2
+- i = 1, j = 1
+- i = 1, j = 2
+
+Tworzac konstruktor kopiujacy musimy szczegolnie uwazac na:
++ klasy zawierajace wskaznik
+- inkrementacje
+- algorytmy
+- biblioteki
+
+Destruktor dla class MojaKlasa to:
+- *MojaKlasa();
++ ~MojaKlasa();
+- MojaKlasa(destroy);
+- &MojaKlasa();
 
 
