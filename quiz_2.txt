@@ -39,3 +39,35 @@ Ktory operator jest operatorem potegowania w C++?
 - ^
 - **
 - ^^
+
+#Paweł D., pytania cpp zestaw 2
+Prawidlowa iteracja po wszystkich elementach tablicy 10 elementowej to:
+- for (int i = 1; i < 11; ++i)
+- for (int i = 0; i <= 10; ++i)
++ for (int i = 0; i < 10; ++i)
+- for (int i = 1; i < 10; ++i)
+
+W funkcji void foo(int& x) przekazujemy parametr przez:
+- warosc
++ referencje
+- wartosci wskaznika
+- zadna z powyzszych
+
+Najlepsza nazwa dla funkcji bool foo(int x) sprawdzajacej czy x jest nieparzysta:
+- checkIfGivenNumberIsOddAndReturnTrueOrFalse(int x);
++ isOdd(int x);
+- odd(int x);
+- oddOrEven(int x);
+
+Aby zwiekszyc czytelnosc kodu wartosci numeryczne mozemy zmienic na:
+- stringi
+- obiekty
++ enum
+- czytelnosc kodu jest niewazna
+
+Domyslnie dostep do wszystkich elementow klasy jest ustawiony na:
+- public
++ private
+- protected
+- topsecret
+
