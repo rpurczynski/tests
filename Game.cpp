@@ -33,11 +33,11 @@ Game::~Game()
 
 }
 
-int Game::play()
+int Game::play(const std::string& name)
 {
 	for (int i = 1; i <= 3; ++i)
 	{
-		Quiz newQuiz(toString(i));
+		Quiz newQuiz(name + "_" + toString(i));
 
 		if (!newQuiz.readFile())
 		{
@@ -71,6 +71,6 @@ int Game::showResult()
 void Game::setBonusPoints(std::string points)
 {
 	bonusPoints += atoi(points.c_str());
-	UserInOut::setOutput("Bonus points: " + toString(bonusPoints) + "\n");
+	UserInOut::setOutput("Punkty bonusowe: " + toString(bonusPoints) + "\n");
 }
 

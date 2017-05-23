@@ -4,7 +4,7 @@
 # Znak - oznacza niepoprawną
 # Quiz powinien być jednokrotnego wyboru.
 
-# Poziom 1
+# Poziom 3
 
 # Proszę dopisywać swoje pytania
 
@@ -20,7 +20,7 @@ const int * wsk to:
 + wskaznik do stalego obiektu
 - staly wskaznik
 - wskaznik staly do obiketu stalego
-- zadna z powyzszych odpowiedzi
+- zadna z podanych odpowiedzi
 
 Ktore z ponizszych wyrazen jest nieprawdilowa dyrektywa preprocesora?
 + #ifundef
@@ -45,7 +45,7 @@ Tworzac zmienna ze slowem const mozemy powiedziec, ze:
 + bedzie ona dla nas "read only"
 - bedzie ona dla nas "write only"
 - bedzie ona dla nas "read-write"
-- zadne z powyzszych
+- zadne z podanych
 
 Po wykonaniu kodu i = 1; j = i++; zmienne beda wynosic:
 + i = 2, j = 1

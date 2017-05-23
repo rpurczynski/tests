@@ -20,7 +20,7 @@ Skladniki struktury domyslnie opatrzone sa etykieta:
 + public
 - protected
 - private
-- zadna z powyzszych
+- zadna z podanych
 
 Ile argumentow moze przyjmowac destruktor klasy?
 + 0
@@ -38,7 +38,7 @@ STL to:
 + Standard template library
 - System template library
 - Standard topics library
-- zadne z powyzszych
+- zadne z podanych
 
 #Paweł D., pytania cpp zestaw 1
 
@@ -60,11 +60,12 @@ Funkcja void foo(int& x, int y, char * z) zwraca:
 - wskaznik
 + nic nie zwraca
 
-Aby zadzialal kod: cout << "Hello world" << endl; nalezy:
-- dodac std:: przed cout oraz przed endl
-- dodac przed kodem using namespace std;
-- dodac #include <iostream> na poczatku pliku
-+ wszystkie z pozyzszych sa prawidlowe
+#Proszę poprawić to pytanie...
+#Aby zadzialal kod: cout << "Hello world" << endl; nalezy:
+#- dodac std:: przed cout oraz przed endl
+#- dodac przed kodem using namespace std;
+#- dodac #include <iostream> na poczatku pliku
+#+ wszystkie z pozyzszych sa prawidlowe
 
 Kod: int i = 1; i++; ++i; i--; printf("%d", i); wyprintuje:
 - nic bo kod sie nie skompiluje

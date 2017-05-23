@@ -10,7 +10,7 @@ public:
 	Game();
 	virtual ~Game();
 
-	int play();
+	int play(const std::string& name);
 	int showResult();
 	void setBonusPoints(std::string points);
 

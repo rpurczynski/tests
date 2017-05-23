@@ -1,0 +1,11 @@
+# To jest format pliku w którym zapisujemy pytania
+# oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
+# Niech + oznacza prawidłową odpowiedź
+# Znak - oznacza niepoprawną
+# Quiz powinien być jednokrotnego wyboru.
+
+# Poziom 3
+
+# Proszę dopisywać swoje pytania
+
+

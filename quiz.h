@@ -14,7 +14,7 @@ public:
 	int readFile();
 
 private:
-	std::string level;
+	std::string quizFileName;
 	std::vector<Question> questions;
 
 };

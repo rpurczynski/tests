@@ -8,15 +8,15 @@
 #include <algorithm>
 #include <ctime>
 
-Quiz::Quiz(const std::string& quizLevel) :
-		level(quizLevel)
+Quiz::Quiz(const std::string& quizName) :
+		quizFileName(quizName)
 {
 
 }
 
 int Quiz::readFile()
 {
-	std::string fileName = "quiz_" + level + ".txt";
+	std::string fileName = quizFileName + ".txt";
 	std::ifstream quiz(fileName.c_str());
 
 	if (quiz.good() == false)  // inaczej if(!quiz)
@@ -50,7 +50,10 @@ void Quiz::play()
 	std::srand(unsigned(std::time(0)));
 	std::random_shuffle(questions.begin(), questions.end());
 
-	questions.resize(5, Question(""));
+	if (questions.size() > 5)
+	{
+		questions.resize(5, Question(""));
+	}
 
 	for (unsigned int i = 0; i < questions.size(); ++i)
 	{

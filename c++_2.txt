@@ -4,7 +4,7 @@
 # Znak - oznacza niepoprawną
 # Quiz powinien być jednokrotnego wyboru.
 
-# Poziom 1
+# Poziom 2
 
 # Proszę dopisywać swoje pytania
 
