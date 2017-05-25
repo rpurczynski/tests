@@ -8,4 +8,33 @@
 
 # Proszę dopisywać swoje pytania
 
+# Paweł D., pytania STL zestaw 3
+multiset od set rozni sie:
+- tylko nazwa
++ w multiset wartosci moga sie powtarzac
+- w multiset wartosci sa nieposortowane
+- multiset to set setow
 
+Aby sprawdzic czy myVector jest pusty uzyjemy
+- myVector.swap()
+- myVector.clear()
+- myVector.erase()
++ myVector.empty()
+
+Struktura kontenera set jest zazwyczaj oparta na
+- kolejce
++ drzewie
+- stosie
+- tablicy
+
+Po wykonaniu mojIterator++;
+- pojawi sie blad
++ iterator bedzie wskazywal na nastepny element
+- iterator zwiekszy sie o 2
+- zadne z powyzszych
+
+Dane w kontenerze vector:
+- na poczatku sa ciagle ale po dodaniu nowego elementu moga ulec fragmentacji
+- sa dzielone i lokowane w wolne miejsca pamieci
++ sa ulozone w pamieci zawsze w sposob ciagły
+- zadne z powyzszych
