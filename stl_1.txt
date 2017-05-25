@@ -39,3 +39,35 @@ rbegin to
 + iterator
 - indexator
 
+#Pytania Filip
+
+Do kontenerów STL nalezą:
+- map
+- multiset
+- set
++ wszystkie z wyżej wymienionych
+
+Ktora z funkcji nie jest obslugiwana przez stack?
++ reverse()
+- empty()
+- size()
+- push()
+ 
+Do obszarow pamieci dynamicznej nalezy:
+- stack
++ heap
+- stack i heap
+- zadme z powyzszych
+
+Sekcja przeznaczona do przechowywania zmiennych lokalnych to:
+- heap
++ stack
+- stack i heap
+- zadne z powyzszych
+
+Co zrobi funkcja push() w queque:
++ doda element na koniec kolejki
+- doda element na poczatek kolejki
+- wyznaczy srodek kolejki i tam doda element
+- nic nie doda poniewaz funkcja push() nie dziala dla queque
+
