@@ -8,5 +8,34 @@
 
 # Proszę dopisywać swoje pytania
 
+# Paweł D., pytania STL zestaw 1
+array, vector, list to:
+- iteratory
++ kontenery
+- algorytmy
+- zadne z powyzszych
 
+stack to struktura typu:
+- FIFO
++ LIFO
+- LILO
+- FIFI
+
+queue to struktura typu:
++ FIFO
+- LIFO
+- LILO
+- FIFI
+
+Co robi push_back zastosowany do vecor'a:
++ dodaje elementna na koncu wektora
+- usuwa element na koncu wektora
+- dodaje element na poczatku wektora
+- usuwa element na poczatku wektora
+
+rbegin to
+- modyfikator
+- operator
++ iterator
+- indexator
 
