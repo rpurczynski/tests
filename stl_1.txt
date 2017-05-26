@@ -71,3 +71,34 @@ Co zrobi funkcja push() w queque:
 - wyznaczy srodek kolejki i tam doda element
 - nic nie doda poniewaz funkcja push() nie dziala dla queque
 
+
+#Konrad A., pytania STL zestaw 1
+Kontener to:
++ struktura danych
+- klasa virtualna
+- zmienna
+- zadne z powyzszych
+
+Aby moc skorzystac z kontenera stos w przestrzeni std w C++, nalezy dolaczyc plik naglowkowy:
+- #include <math>
+- #include <iostream>
++ #include <stack>
+- zadne z powyzszych
+
+Metoda ktora służy do odczytania lub modyfikacji wartości umieszczonej na szczycie stosu to:
+- push
++ top
+- cout
+- zadne z powyzszych
+
+Funkcja unarna to inaczej:
++ Funkcja z jednym argumentem
+- Funkcja z dwoma argumentami
+- Funkcja bez argumentow
+- zadne z powyzszych
+
+Funkcja bez argumentow to:
++ generator
+- funkcja binarna
+- generator adaptacyjny
+- funkcja unarna
