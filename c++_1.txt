@@ -73,3 +73,34 @@ Kod: int i = 1; i++; ++i; i--; printf("%d", i); wyprintuje:
 + 2
 - 3
 
+#Konrad A., pytania cpp zestaw 1
+
+Jaki znak kończy wszystkie łańcuchy znakowe?
+- "\END"
++ "\0"
+- "."
+- "#"
+
+Zmienna char przechowuje:
++ litery, cyfry, znaki interpunkcyjne
+- wartości logiczne true/false (prawda/fałsz)
+- przydział miejsca w pamięci dla zmiennej
+- dane typu void
+
+Komentarze to tekst w kodzie źródłowym: 
+- który podlega kompilacji
+- który podlega kompilacji warunkowo
++ który nie podlega kompilacji
+- podlega kompilacji tymczasowej
+
+Liczba o pojedynczej precyzji to zmienna typu:
+- double
++ float
+- int
+- string
+
+Operacje przypisania dokonujemy za pomocą znaku:
++ "="
+- "=="
+- "+"
+- "*"
