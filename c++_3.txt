@@ -79,10 +79,10 @@ W jaki sposób dokonujemy jawnego wywołania konstruktora:
 - wszystkie odpowiedzi sa bledne
 
 Funkcja czysto wirtualna to taka funkcja ktora:
-- nie ma definicji
++ nie ma definicji oraz nie moze zostac wywolana
 - nie ma deklaracji
-- nie moze zostac wywolana
-+ odpowiedz a i c sa poprawne
+- nie ma takiej funkcji
+- wszystkie sa poprawne
 
 Klasa, od której inna klasa dziedziczy to:
 - predykat
