@@ -71,4 +71,34 @@ Destruktor dla class MojaKlasa to:
 - MojaKlasa(destroy);
 - &MojaKlasa();
 
+#Konrad A., pytania cpp zestaw 3
+W jaki sposób dokonujemy jawnego wywołania konstruktora:
++ nazwa_klasy(argumenty)
+- obiekt.funkcja_skladowa(argumenty)
+- nazwa_klasy::funkcja(argumenty)
+- wszystkie odpowiedzi sa bledne
+
+Funkcja czysto wirtualna to taka funkcja ktora:
+- nie ma definicji
+- nie ma deklaracji
+- nie moze zostac wywolana
++ odpowiedz a i c sa poprawne
+
+Klasa, od której inna klasa dziedziczy to:
+- predykat
+- przwodnik
+- klasa pierwotna
++ klasa bazowa
+
+Wywolanie metody rysuj na rzecz obiektu pisak egzemplarza klasy malarz to:
+- rysuj();
+- malarz.pisak();
++ pisak.rysuj();
+- malarz.rysuj();
+
+Konstruktor sluzy do:
+- odczytu pol klasy
++ inicjalizacji wlasciwosci
+- usuwania obiektu z pamieci
+- konstruowania metod
 
