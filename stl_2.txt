@@ -69,3 +69,36 @@ Slowo kluczowe noexcept oznacza:
 - funkcja nie istnieje
 - Nie ma takiego slowa kluczowego
 - Funkcje, ktora nic nie zwraca
+
+#Pytania Filip
+
+Złożoność liniowa oznaczana jest:
+- O(1)
+- O(log(n))
++ O(n)
+- O(n^2)
+
+Adaptery w STL to :
+- stos
+- kolejka
+- kolejka priorytetowa
++ wszystkie tutaj wymienione
+
+Iteratory mozna wykorzystac do:
+- wyszukiwania danych
+- kasowania wybranego elementu
+- kopiowania wybranego zakresu danych do innego kontenera
++ wszystkie odpowiedzi sa poprawne
+
+Capacity zwraca:
+- iterator wskazujacy na element
+- referencje na ostatni element w kontenerze
+- minimalna liczbe elementow jaka moze pomiescic kontener bez wykonywania realokacji pamieci
++ maksymalna dlugosc tablicy kontenera wyrazona w liczbie elementow
+
+Rbegin zwraca iterator odwrotny wskazujacy na:
+- pierwszy element
+- drugi element 
++ ostatni element
+- zadna z powyzszych 
+
