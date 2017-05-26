@@ -38,3 +38,35 @@ Dane w kontenerze vector:
 - sa dzielone i lokowane w wolne miejsca pamieci
 + sa ulozone w pamieci zawsze w sposob ciagły
 - zadne z powyzszych
+
+#Konrad A., pytania STL zestaw 3
+Iteratory strumieni to:
++ Iteraory realizujace odczyt i zapis do strumienia
+- Iteratory zwiekszajace wartosc zmiennej
+- Nie ma takiego iteratora
+- zadne z powyzszych
+
+Prawda jest, ze kontenery:
+- Zapewniaja semantyke wartosci
+- Wszystkie elementy posiadaja okreslona kolejnosc
+- Nie sprawdzaja mozliwosci wystepienia kazdego rodzaju bledu
++ Wszystkie odpowiedzi sa poprawne
+
+Wektor to:
++ model tablicy dynamicznej
+- model tablicy statycznej
+- funkcja
+- zmienna
+
+Kolejka deque:
+- To kolejka o dwoch koncach
+- Zapewnia szybkie wstawianie elementow na koncu i na poczatku kontenera
+- Jest podobna do wektora
++ wszystkie odpowiedzi sa ok
+
+Kontenery map oraz multimap:
++ Sa kontenerami, ktorych elementami sa pary klucz-wartosc
+- Nie dopuszczaja powtorzenia elementow
+- Sa funkcja statyczna
+- Wszystkie odpowiedzi sa bledne
+
