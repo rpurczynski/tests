@@ -70,3 +70,34 @@ Kontenery map oraz multimap:
 - Sa funkcja statyczna
 - Wszystkie odpowiedzi sa bledne
 
+#Rafał P
+
+Specyfikator formatu funkcji scanf() - %s - oznacza:
+- znak
++ łańcuch znaków
+- liczbę zmiennoprzecinkowa z kropką
+- liczbę stałoprzecinkową
+
+Plik nagłówkowy fstream.h odpowiada za:
+- definicje klas umożliwiających realizację C++ operacji we/wy
+- definicje manipulatorów we/wy C++
++ definicje klas umożliwiających realizację C++ operacji we/wy na plikach
+- Wszystkie odpowiedzi sa poprawne
+
+Funkcja standardowa obsługi ekranu i klawiatury - void clrscr(void); odpowiada za:
+- kasowanie linii (tej z kursorem)
++ czyszczenie okna
+- wczytanie znaku z klawiatur
+- czyszczenia wszystkich zmiennych
+
+Plik nagłówkowy errno.h odpowiada za:
+- definicje stałych
+- definicje manipulatorów we/wy C++
++ definicje kodów błędów
+- definicja stałych
+
+W języku C++ tablica znaków, na której operacje wykonuje się przy użyciu wskaźników to:
+- tablica asocjacyjna
++ łańcuch znaków
+- tablica stron
+- tablica funkcji
