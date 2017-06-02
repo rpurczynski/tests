@@ -102,3 +102,28 @@ Konstruktor sluzy do:
 - usuwania obiektu z pamieci
 - konstruowania metod
 
+#Rafał P
+
+Preprocesor to:
+- program modyfikujący, który ma za zadanie przetworzenie tekstu wejściowego na dowolny tekst wyjściowy 
++ program interpretujący, który ma za zadanie przetworzenie tekstu wejściowego na określony tekst wyjściowy 
+- program implementujący, który ma za zadanie utworzenie tekstu wyjściowego 
+- część składowa procesora, mająca za zadanie uruchamianie programu
+
+Dyrektywy kompilacji warunkowej:
++ pozwalają wybiórczo kompilować fragmenty kodu źródłowego
+- umożliwiają deklarację zmiennych różnych typów współdzielących miejsce w pamięci
+- pozwalają dokonać wyboru jednej z wielu zmiennych
+- warunkują użycie pamięci w czasie wykonywania programu
+
+Funkcja wszystkie potrzebne dane do wykonania powinna otrzymywać:
+- ze zmiennych globalnych
++ przez listę parametrów
+- przez deklaracje zmiennych lokalnych 
+- przez podanie adresu 
+
+W języku C++ jest możliwość deklarowania funkcji które posiadają takie same nazwy ale mają różne interfejsy. Są to:
+- funkcje przeciążone
+- funkcje przeładowane
++ obie odpowiedzi są prawidłowe
+- żadna odpowiedź nie jest prawidłowa
