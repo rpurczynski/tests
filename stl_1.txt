@@ -39,6 +39,38 @@ rbegin to
 + iterator
 - indexator
 
+#Rafał P
+W języku C++ funkcję standardową włączamy za pomocą dyrektywy:
+-. #else
++ #include
+-. #string
+-. #stdio
+
+Plik nagłówkowy math.h odpowiada za:
+- funkcje obsługi ekranu i klawiatury
+- działania na łańcuchach znaków
++ funkcje matematyczne
+- operacje wektorowe
+
+Funkcja printf() służy do:
++ wyprowadzania danych na ekran
+- wprowadzania danych do programu
+- podania polecenia do drukarki
+- pobrania danych z ekranu
+
+Standardowa funkcja matematyczna double sqrt(double x); oznacza:
++ pierwiastek kwadratowy
+- największa liczba całkowita mniejsza od x
+- najmniejsza liczba całkowita większa od x
+- liczba podzielna przez kwadrat x
+
+Plik nagłówkowy conio.h odpowiada za:
+- standardowe we/wy
+- funkcje matematyczne i konwersji
++ funkcje obsługi ekranu i klawiatury
+- funkcje przetwarzania ciągów znaków
+
+
 #Pytania Filip
 
 Do kontenerów STL nalezą:
