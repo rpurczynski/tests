@@ -113,7 +113,7 @@ Jaki znak kończy wszystkie łańcuchy znakowe?
 - '.'
 - '#'
 
-Zmienna char przechowuje:
+Zmienna char przechowuje (nie wliczajac rzutowania):
 + litery, cyfry, znaki interpunkcyjne
 - tylko wartości logiczne true/false (prawda/fałsz)
 - przydział innego miejsca w pamięci dla zmiennej
