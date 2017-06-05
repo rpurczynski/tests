@@ -102,3 +102,33 @@ Konstruktor sluzy do:
 - usuwania obiektu z pamieci
 - konstruowania metod
 
+#Pytania Filip
+Po co są stosowane destruktory wirtualne:
++ aby zapewnić wywołanie wszystkich destruktorów klas pochodnych
+- aby w czasie destrukcji obiektu został wywołany również destruktor klasy bazowej
+- aby uniknąć błędu kompilacji
+- żadne z powyższych
+
+Obiekty okreslone jako protected sa dostepne dla:
++ tej klasy oraz klas dziedziczacych
+- tylko dla tej klasy
+- dla wszystkich
+- zadne z powyzszych
+
+Gdzie tworzone sa obiekty przy pomocy operatora 'new':
++ na stercie
+- na stosie
+- w zaleznosci gdzie jest wolna pamiec
+- zadne z powyzszych
+
+Co sie stanie jezeli w aplikacji zostanie uzyta biblioteka ale nie zostanie ona zlinkowana
++ bedzie blad linkowania
+- nic, kompilator sam zlinkuje
+- nastapi blad kompilacji
+- w momencie wywolania funkcji pojawi sie komunikat: segmentation fault
+
+Jak uzyskac dostep do elementow skladowych wskaznika:
+- .
++ ->
+- *
+- zadne z powyzszych
