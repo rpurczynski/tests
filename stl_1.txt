@@ -136,4 +136,34 @@ Wybierz poprawny sposob dodawania elementow (np. 5) na koncu wektora vector<int>
 + values.push_back(5);
 - values.pop_back(5);
  
+#Rafał P
+W języku C++ dołączamy  wskazany plik źródłowy za pomocą dyrektywy:
+- #else
++ #include
+- #string
+- #stdio
+
+Plik nagłówkowy math.h odpowiada za:
+- funkcje obsługi ekranu i klawiatury
+- działania na łańcuchach znaków
++ funkcje matematyczne
+- operacje wektorowe
+
+Funkcja printf() służy do:
++ wyprowadzania danych na ekran
+- wprowadzania danych do programu
+- podania polecenia do drukarki
+- pobrania danych z ekranu
+
+Standardowa funkcja matematyczna double sqrt(double x); oznacza:
++ pierwiastek kwadratowy
+- największa liczba całkowita mniejsza od x
+- najmniejsza liczba całkowita większa od x
+- liczba podzielna przez kwadrat x
+
+Kontener vector należny używać kiedy: 
+- do poszczególnych elementów chcemy dostawać się poprzez index,
+- chcemy przeglądać elementy w dowolnej kolejności,
+- dodajemy i usuwamy elementy jedynie z końca kolekcji
++ wszystkie odpowiedzi są poprawne
 
