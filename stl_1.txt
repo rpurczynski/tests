@@ -102,3 +102,38 @@ Funkcja bez argumentow to:
 - funkcja binarna
 - generator adaptacyjny
 - funkcja unarna
+
+#Magdalena B., pytania stl zestaw 1
+
+
+Ktory z plikow naglowkowych nie znajduje sie w bibliotece standardowej C++?
++ <instream>
+- <iostream>
+- <istream>
+- <ostream>
+
+Ktora z funkcji nie jest zwiazana ze stosem:
+- empty();
+- size();
+- top();
++ front();
+
+Wybierz poprawny sposob usuwania elementow (np. 5) z poczatku kolejki queue <int> kolejka_liczb:
++ kolejka_liczb.pop(5);
+- kolejka_liczb.front(5);
+- kolejka_liczb[i] = 5;
+- kolejka_liczb.delete(5);
+
+Ktory z ponizszych aspektow dotyczy kontenera lista? 
+- dostep tylko przez iteratory
+- dodawanie i usuwanie elementów jest bardzo szybkie i odbywa się w stałym czasie
+- adresy elementow niezmienne
++ wszystkie powyzej
+
+Wybierz poprawny sposob dodawania elementow (np. 5) na koncu wektora vector<int> values:
+- values.add(5);
+- values[i] = 5;
++ values.push_back(5);
+- values.pop_back(5);
+ 
+
