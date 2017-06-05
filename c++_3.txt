@@ -85,20 +85,20 @@ Funkcja czysto wirtualna to taka funkcja ktora:
 - wszystkie sa poprawne
 
 Klasa, od której inna klasa dziedziczy to:
++ klasa bazowa
 - predykat
 - przwodnik
 - klasa pierwotna
-+ klasa bazowa
 
 Wywolanie metody rysuj na rzecz obiektu pisak egzemplarza klasy malarz to:
++ pisak.rysuj();
 - rysuj();
 - malarz.pisak();
-+ pisak.rysuj();
 - malarz.rysuj();
 
 Konstruktor sluzy do:
-- odczytu pol klasy
 + inicjalizacji wlasciwosci
+- odczytu pol klasy
 - usuwania obiektu z pamieci
 - konstruowania metod
 
