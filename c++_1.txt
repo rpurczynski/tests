@@ -60,12 +60,11 @@ Funkcja void foo(int& x, int y, char * z) zwraca:
 - wskaznik
 + nic nie zwraca
 
-#Proszę poprawić to pytanie...
-#Aby zadzialal kod: cout << "Hello world" << endl; nalezy:
-#- dodac std:: przed cout oraz przed endl
-#- dodac przed kodem using namespace std;
+#Aby zadzialal kod: cout << Hello world; nalezy:
+#- dodac std:: przed cout lub dodac przed kodem using namespace std;
+#- dodac cudzyslowy do tekstu "Hello world"
 #- dodac #include <iostream> na poczatku pliku
-#+ wszystkie z pozyzszych sa prawidlowe
+#+ wszystkie z powyzszych
 
 Kod: int i = 1; i++; ++i; i--; printf("%d", i); wyprintuje:
 - nic bo kod sie nie skompiluje
