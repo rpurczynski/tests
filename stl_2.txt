@@ -41,14 +41,14 @@ Operator [] w przypadku vectora:
 
 #Konrad A., pytania STL zestaw 2
 Kontener bitset to:
-- nie ma takiego kontenera
-+ tablice o ustalonym rozmiarze zawierajace bity lub wartosci logiczne
-- zmienna zawzse globalna zajmująca 1 bit ustawiony w pamięci
-- zadne z powyzszych
++ pole bitowe zawierajace dowolna, lecz ustalona z gory liczbe bitow
+- pole bitowe zawierajace ograniczona z gory ustalona liczbe bitow
+- pole bitowe zawierajace ograniczona, lecz nieustalona z gory liczbe bitow
+- pole bitowe zawierajace dowolna, nieustalona z gory liczbe bitow
 
-Co robi konstruktor domyślny bitser<bits>::bitset()
-- Tworzy zmienna o dwoch bitach
+Co robi konstruktor domyślny bitser<bits>::bitset():
 + Tworzy zestaw bitow zainicjalizowany zerami
+- Tworzy zmienna o dwoch bitach
 - Dodaje do siebie dwie liczby
 - Usuwa wszystkie funkcje z programu
 
