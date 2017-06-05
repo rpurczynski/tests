@@ -102,6 +102,39 @@ Konstruktor sluzy do:
 - usuwania obiektu z pamieci
 - konstruowania metod
 
+
+#Magdalena B., pytania cpp zestaw 3
+
+Ktorego operatora nie mozna przeladowac?
++ ::
+- %
+- /
+- ()
+
+Ktory wskaznik przechowuje zawsze aktualny adres aktywnego obiektu?
+- new
+- auto_ptr
++ this
+- ptr
+
+Ktory specyfikator pamieci masowej jest uzywany do modyfikowania zmiennej skladowej, nawet jesli obiekt klasy jest obiektem stalym?
++ mutable
+- register
+- static
+- auto
+
+Gdzie w pamieci przechowywane sa obiekty utworzone przy uzyciu operatora new?
+- stos
++ sterta
+- cache
+- inny obszar pamieci
+
+Ktory zapis przedstawia czysta funkcje wirtualna?
+- virtual void f()=0 {}
+- void virtual f()=0 {}
+- virtual void f() {} = 0;
++ zaden z powyzszych
+
 #Pytania Filip
 Po co są stosowane destruktory wirtualne:
 + aby zapewnić wywołanie wszystkich destruktorów klas pochodnych
