@@ -102,3 +102,36 @@ Rbegin zwraca iterator odwrotny wskazujacy na:
 + ostatni element
 - zadna z powyzszych 
 
+#Magdalena B., pytania stl zestaw 2
+
+Kontener w STL to:
+- lista
+- vector
+- dequeue
++ wszystkie powyzej
+
+Zapis O(K*1) oznacza:
++ stala zlozonosc
+- zlozonosc logarytmiczna
+- zlozonosc liniowa
+- zlozonosc wielomianowa
+
+Jak wyglada deklaracja iteratora dla wektora vector<int> vect;?
+- vector<> vect::iterator i;
++ vector<int>::iterator i;
+- iterator i;
+- vector<int>::i;
+
+Struktura danych, w ktorej dostep do danych jest mozliwy tylko do elementu o najwyzszym priorytecie, a dane w niej sa uporzadkowane nierosnaco (albo niemalejaco) to:
++ priority_queue
+- stack
+- queue
+- list
+
+Wybierz poprawny sposob usuwania elementow z konca wektora vector<int> values:
+- values.clear();
+- values.delete();
+- values.push_back();
++ values.pop_back();
+
+
