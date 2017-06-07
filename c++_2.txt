@@ -134,33 +134,32 @@ Operator zakresu to:
 - "^"
 
 #Rafał P 
-
 Tablice dynamiczne to takie:
-- gdzie rozmiar tablicy jest stały
-+ gdzie rozmiar tablicy może się zmieniać w trakcie wykonywania programu
-- gdzie do tablicy dynamicznie jest przydzielany wskaźnik
-- żadna z odpowiedzi nie jest prawidłowa
+- gdzie rozmiar tablicy jest staly
++ gdzie rozmiar tablicy moze sie zmieniac w trakcie wykonywania programu
+- gdzie do tablicy dynamicznie jest przydzielany wskaznik
+- zadna z odpowiedzi nie jest prawidlowa
 
 Abstrakcyjna klasa
-- klasa musi zawierać wszystkie czystych funkcji wirtualnych
-+ klasa musi zawierać co najmniej jeden czysty funkcji wirtualnej 
-- klasa nie może zawierać czystą funkcję wirtualną. 
-- klasa musi zawierać czystą funkcję wirtualną zdefiniowaną poza klasą. 
+- klasa musi zawierac wszystkie czystych funkcji wirtualnych
++ klasa musi zawierac co najmniej jeden czysty funkcji wirtualnej 
+- klasa nie moze zawierac czysta funkcje wirtualna. 
+- klasa musi zawierac czysta funkcje wirtualna zdefiniowana poza klasa. 
 
-Jeśli klasa ma wiele bezpośrednich klas bazowych to jest to:
+Jesli klasa ma wiele bezposrednich klas bazowych to jest to:
 + dziedziczenie wielokrotne
 - dziedziczenie pokoleniowe
 - dziedziczenie grupowe
 - dziedziczenie pochodne
 
 Konstruktor
-+ jest wywołany w momencie tworzenia obiektu
-- musi posiadać przynajmniej jeden parametr
-- musi być zdefiniowany w każdej klasie 
-- jest wywołany w momencie niszczenia obiektu
++ jest wywolany w momencie tworzenia obiektu
+- musi posiadac przynajmniej jeden parametr
+- musi byc zdefiniowany w kazdej klasie 
+- jest wywolany w momencie niszczenia obiektu
 
 Klasa
-- jest zmienną przechowującą wiele wartości
+- jest zmienna przechowujaca wiele wartosci
 + opisuje obiekt
 - tworzy obiekt o danej nazwie15 wierszach, 5 kolumnach
-- musi mieć przynajmniej jedna właściwość prywatną
+- musi miec przynajmniej jedna wlasciwosc prywatna
