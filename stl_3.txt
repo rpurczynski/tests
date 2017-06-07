@@ -74,30 +74,31 @@ Kontenery map oraz multimap:
 
 Specyfikator formatu funkcji scanf() - %s - oznacza:
 - znak
-+ łańcuch znaków
-- liczbę zmiennoprzecinkowa z kropką
-- liczbę stałoprzecinkową
++ lancuch znakow
+- liczbe zmiennoprzecinkowa z kropka
+- liczbe staloprzecinkowa
 
-Plik nagłówkowy fstream.h odpowiada za:
-- definicje klas umożliwiających realizację C++ operacji we/wy
-- definicje manipulatorów we/wy C++
-+ definicje klas umożliwiających realizację C++ operacji we/wy na plikach
+Plik naglowkowy fstream.h odpowiada za:
+- definicje klas umozliwiajacych realizacje C++ operacji we/wy
+- definicje manipulatorow we/wy C++
++ definicje klas umozliwiajacych realizacje C++ operacji we/wy na plikach
 - Wszystkie odpowiedzi sa poprawne
 
-Funkcja standardowa obsługi ekranu i klawiatury - void clrscr(void); odpowiada za:
+Funkcja obslugi ekranu i klawiatury - void clrscr(void); odpowiada za:
 - kasowanie linii (tej z kursorem)
 + czyszczenie okna
 - wczytanie znaku z klawiatur
 - czyszczenia wszystkich zmiennych
 
-Plik nagłówkowy errno.h odpowiada za:
-- definicje stałych
-- definicje manipulatorów we/wy C++
-+ definicje kodów błędów
-- definicja stałych
+Plik naglowkowy errno.h odpowiada za:
+- definicje stalych
+- definicje manipulatorow we/wy C++
++ definicje kodow bledow
+- definicja stalych
 
-W języku C++ tablica znaków, na której operacje wykonuje się przy użyciu wskaźników to:
+W jezyku C++ tablica znakow, na ktorej operacje wykonuje sie przy uzyciu wskaznikow to:
 - tablica asocjacyjna
-+ łańcuch znaków
++ lancuch znakow
 - tablica stron
 - tablica funkcji
+
