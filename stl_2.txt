@@ -104,32 +104,33 @@ Rbegin zwraca iterator odwrotny wskazujacy na:
 
 #/Rafał P
 
-W C++ pliki nagłówkowe posiadają zwyczajowe rozszerzenie:
+W C++ pliki naglowkowe posiadaja zwyczajowe rozszerzenie:
 - .cpp
 - .co
 + .h
 - .cph
 
-Za działania na łańcuchach znaków odpowiada plik nagłówkowy:
+Za dzialania na lancuchach znakow odpowiada plik naglowkowy:
 - time.h
 + string.h
 - stdio.h
 - vector.h
 
-Funkcja scanf() służy do:
+Funkcja scanf() sluzy do:
 - wyprowadzania danych na ekran
 + wczytania danych z klawiatury
 - podania polecenia do skanera
 - wprowadzania danych do programu
 
-Za definicje klas umożliwiających realizację C++ operacji wejścia/wyjścia odpowiada plik nagłówkowy:
+Za definicje klas umozliwiajacych realizacje C++ operacji wejscia/wyjscia odpowiada plik naglowkowy:
 - stdio.h
 + iostream.h
 - iomanip.h
 - string.h
 
-Znacznikiem końca łańcucha znaków jest znak o kodzie:
+Znacznikiem konca lancucha znakow jest znak o kodzie:
 - %0
 + \0
 - #0
 - \end
+
