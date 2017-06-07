@@ -139,32 +139,33 @@ Operacje przypisania dokonujemy za pomocą znaku:
 
 #Rafał P
 
-W języku C++ znakiem "#" rozpoczynają się:
-- deklaracje typów danych
+W jezyku C++ znakiem "#" rozpoczynaja sie:
+- deklaracje typow danych
 + dyrektywy preprocesora
 - deklaracje zmiennych globalnych
-- deklaracje obiektów w klasach
+- deklaracje obiektow w klasach
 
-Instrukcja złożona zawarta jest w nawiasach:
-- ( ) (nawiasy zwykłe)
+Instrukcja zlozona zawarta jest w nawiasach:
+- ( ) (nawiasy zwykle)
 + { } (nawiasy klamrowe)
-- [ ] (nawiasy prostokątne)
-- żadna z powyższych
+- [ ] (nawiasy prostokatne)
+- zadna z powyzszych
 
-Funkcje rekurencyjne są funkcjami:
-+ które w swoim ciele wywołują samą siebie
-- które w swoim ciele wywołują inne funkcje
-- które w swoim ciele wywołują określoną funkcję
-- które nie wywołują nic
+Funkcje rekurencyjne sa funkcjami:
++ ktore w swoim ciele wywoluja sama siebie
+- ktore w swoim ciele wywoluja inne funkcje
+- ktore w swoim ciele wywoluja okreslona funkcje
+- ktore nie wywoluja nic
 
-Domyślną klasą pamięci zmiennych globalnych jest:
+Domyslna klasa pamieci zmiennych globalnych jest:
 + static
 - dynamic 
 - auto 
 - const
 
-Zapis int tablica_liczb [5][10]; deklaruje tablicę o:
+Zapis int tablica_liczb [5][10]; deklaruje tablice o:
 + 5wierszach, 10 kolumnach
 - 5kolumnach, 10 wierszach
 - 15 wierszach, 5 kolumnach
 - 50 kolumnach
+
