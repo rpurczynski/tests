@@ -1,12 +1,12 @@
-# To jest format pliku w którym zapisujemy pytania
+# To jest format pliku w ktorym zapisujemy pytania
 # oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
-# Niech + oznacza prawidłową odpowiedź
-# Znak - oznacza niepoprawną
-# Quiz powinien być jednokrotnego wyboru.
+# Niech + oznacza prawidlowa odpowiedz
+# Znak - oznacza niepoprawna
+# Quiz powinien byc jednokrotnego wyboru.
 
 # Poziom 2
 
-# Proszę dopisywać swoje pytania
+# Prosze dopisywac swoje pytania
 
 #Pytania Angelika
 
@@ -40,7 +40,7 @@ Ktory operator jest operatorem potegowania w C++?
 - **
 - ^^
 
-#Paweł D., pytania cpp zestaw 2
+#Pawel D., pytania cpp zestaw 2
 Prawidlowa iteracja po wszystkich elementach tablicy 10 elementowej to:
 - for (int i = 1; i < 11; ++i)
 - for (int i = 0; i <= 10; ++i)
@@ -72,7 +72,7 @@ Domyslnie dostep do wszystkich elementow klasy jest ustawiony na:
 - topsecret
 
 # Pytania Filip
-Keyword "auto" oznacza że:
+Keyword "auto" oznacza ze:
 + typ danych bedzie automatycznie okreslony przez kompilator
 - nie ma takiej konstrukcji w c++
 - funkcja nic nie zwraca
@@ -84,11 +84,11 @@ Co oznacza taki zapis int i = *ptr
 - alokacja pamieci
 - zadne z powyzszych
 
-Którego z operatorów użyjemy aby dostać się do atrybutu klasy:
+Ktorego z operatorow uzyjemy aby dostac sie do atrybutu klasy:
 - ..
 - *
 + .
-- żadne z powyższych
+- zadne z powyzszych
 
 Konstruktor jest uzywany do:
 - tworzenia obiektow
@@ -96,7 +96,7 @@ Konstruktor jest uzywany do:
 + przypisuje atrybutom wartosci startowe
 - zadne z powyzszych
 
-Dlaczego pętla for się nie wykona for(int i = 1, i < 10, i++):
+Dlaczego petla for sie nie wykona for(int i = 1, i < 10, i++):
 - poniewaz zmienna i trzeba rowniez zadeklarowac poza petla for
 + poniewaz zamiast przecinkow powinny byc sredniki
 - poniewaz musi wystapic preinkrementacja zamiast post.
@@ -115,13 +115,13 @@ Instrukcja switch to instrukcja:
 - interacyjna
 - warunkowa
 
-Wczytanie danych do zmiennej odbywa się poprzez:
+Wczytanie danych do zmiennej odbywa sie poprzez:
 - writeln
 + cin>>
 - cin<<
 - cout>>
 
-Która etykieta oznacza, że deklarowane za nią składniki (funkcje i dane) są dostępne tylko z wnętrza klasy:
+Ktora etykieta oznacza, ze deklarowane za nia skladniki (funkcje i dane) sa dostepne tylko z wnetrza klasy:
 - public
 - protected
 + private
