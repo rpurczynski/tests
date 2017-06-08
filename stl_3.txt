@@ -1,14 +1,14 @@
-# To jest format pliku w którym zapisujemy pytania
+# To jest format pliku w ktorym zapisujemy pytania
 # oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
-# Niech + oznacza prawidłową odpowiedź
-# Znak - oznacza niepoprawną
-# Quiz powinien być jednokrotnego wyboru.
+# Niech + oznacza prawidlowa odpowiedz
+# Znak - oznacza niepoprawna
+# Quiz powinien byc jednokrotnego wyboru.
 
 # Poziom 3
 
-# Proszę dopisywać swoje pytania
+# Prosze dopisywac swoje pytania
 
-# Paweł D., pytania STL zestaw 3
+# Pawel D., pytania STL zestaw 3
 multiset od set rozni sie:
 - tylko nazwa
 + w multiset wartosci moga sie powtarzac
@@ -36,7 +36,7 @@ Po wykonaniu mojIterator++;
 Dane w kontenerze vector:
 - na poczatku sa ciagle ale po dodaniu nowego elementu moga ulec fragmentacji
 - sa dzielone i lokowane w wolne miejsca pamieci
-+ sa ulozone w pamieci zawsze w sposob ciagły
++ sa ulozone w pamieci zawsze w sposob ciagly
 - zadne z powyzszych
 
 #Konrad A., pytania STL zestaw 3
@@ -89,7 +89,6 @@ W jaki sposob zadeklarowac wektor ponizszego typu: class CustomType { public: Cu
 + std::vector<CustomType> vec
 - std::vector vec
 - std::vector<int> vec
-
 
 W przypadku tworzenia zbioru z niepowtarzalnymi elementami oraz struktura ktora przetrzymuje dodatkowe informacje np. lista uzytkownikow [std::string nazwa uzytkownika, wlasny typ: dane o uzytkowniku] jakiego kontenera powinnismy uzyc:
 - std::vector
