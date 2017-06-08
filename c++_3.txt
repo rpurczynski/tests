@@ -165,6 +165,25 @@ Jak uzyskac dostep do elementow skladowych wskaznika:
 - *
 - zadne z powyzszych
 
+#Zestaw 3
+
+Parametrem konstruktora kopiujacego jest:
+- wartosc obiektu
++ referencja do obiektu
+- wskaznik do obiektu
+- nie ma parametrow
+
+Ktory operator jest uzywany do dostepu do struktury przez wskaznik?
++ ->
+- >>
+- ::
+- .
+
+Ile konstruktorow domyslnych dozwolonych jest dla 1 klasy?
++ jeden
+- dwa
+- trzy
+- nieograniczona ilosc
 
 #Damian Cz., pytania cpp zestaw 3
 
@@ -191,3 +210,4 @@ Funkcja czysto wirtualna to taka funkcja ktora:
 - nie ma deklaracji
 - nie przewiduje argumentow
 - wszystkie powyzsze odpowiedzi sa prawidłowe
+
