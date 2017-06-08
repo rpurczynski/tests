@@ -164,3 +164,30 @@ Jak uzyskac dostep do elementow skladowych wskaznika:
 + ->
 - *
 - zadne z powyzszych
+
+
+#Damian Cz., pytania cpp zestaw 3
+
+W klasie std:string funkcja size:
+- wskazuje rozmiar uzytej pamieci dla danego stringu
++ zwraca liczbe znakow danego stringa
+- wskazuje rozmiar pamieci pojedynczego stringa
+- w tej kasie nie jest mozliwa do uzycia
+
+Czy funkcja moze wywoływax sama siebie: 
++ tak, proces taki nazywa się rekurencja
+- tak, proces taki nazywa się polimorfizmem
+- tak, ale dopiero w C++ 14
+- nie, nie jest to mozliwe
+
+Czy mozna stworzyc w klasie funkcje skladowa o takiej samej nazwie, jak istniejaca funkcja globalna? 
++ tak, bedzie to tzw. zasłonięcie nazwy
+- jest to bład
+- nie jest to mozliwe
+- tak, ale musimy stworzyc inne argumenty formalne
+
+Funkcja czysto wirtualna to taka funkcja ktora:
++ nie ma definicji
+- nie ma deklaracji
+- nie przewiduje argumentow
+- wszystkie powyzsze odpowiedzi sa prawidłowe

@@ -133,5 +133,35 @@ Wybierz poprawny sposob dodawania elementow (np. 5) na koncu wektora vector<int>
 - values[i] = 5;
 + values.push_back(5);
 - values.pop_back(5);
+ 
+# Damian Cz., pytania STL zestaw 1
 
+Plik nagłowkowy math.h odpowiada za:
+- funkcje obslugi ekranu i klawiatury
+- dzialania na lancuchach znakow
++ funkcje matematyczne
+- zadne z powyzszych
 
+Klasa unique_ptr:
+- to klasa definiowana w pliku nagłowkowym <memory>
+- to, ktory wskaznik gwarantuje istnienie dokladnie jednego wskaznika do obiektu wskazywanego w danym momencie
+- to tzw. inteligentny wskaznik
++ wszystkie odpowiedzi są prawidlowe
+
+Do porownania rownosci vectorow c1 i c2 uzywa się operacji:
++ c1 == c2
+- c1 = c2
+- swap(c1,c2)
+- nie ma mozliwosci porownywania zawartosci vectorow 
+
+Roznica między mapami a multimapami polega na:
++ multimapy dopuszczaja powtorzenia
+- kontenery map nie uzywają pary klucz wartosc
+- kontenery multimap nie uzywaja pary klucz wartosc
+- zadne z powyzszych
+
+Rozwiniecie skrotu STL to:
+- system template library
++ standard template library
++ static template library
+- zadne z powyzszych

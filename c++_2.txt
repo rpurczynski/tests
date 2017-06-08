@@ -133,6 +133,38 @@ Operator zakresu to:
 - "/"
 - "^"
 
+#Damian Cz., pytania cpp zestaw 2
+
+Inicjalizacja int tablica[3]={1,2}; spowoduje ze: 
+- ostatni element tablicy bedzie mial wartosc 0 
++ utworzona zostanie tablica dwuelementowa 
+- ostatni element tablicy będzie mial wartosc nieokresloną
+- zadne z powyższych
+
+Wskaz nieprawidlowe deklaracje funkcji:
+- int dcz();
++ dcz(int);
+- void dcz(int liczba);
+- wszystkie sa poprawne
+
+Jaka liczba pojawi sie na ekranie? #include <iostream> using namespace std; int main() { int a = 3; cout << (a=6) << endl; system("pause"); }
+- 7
++ 6
+- 3
+- zadna z powyższych
+
+Co to sa argumenty wywolania funkcji?
++ argumenty, ktore  z kazdym jej wywolaniem moga byc inne
+- zunifikowane argumenty, ktorymi funkcje testowane sa przez kompilator
+- argumenty, ktorymi sa statyczne zmienne w kodzie
+- zadne z powyzszych odpowiedzi nie jest prawidlowa
+
+Klasa, od ktorej inna klasa dziedziczy to:
+- predykat
+- metoda
+- klasa dziedziczna
++ klasa bazowa
+
 #Magdalena B., pytania cpp zestaw 2
 
 Jak zadeklarowac funkcje typu void bez zadnych argumentow?

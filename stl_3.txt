@@ -101,3 +101,36 @@ Wytlumacz roznice miedzy std::map a std::set:
 - std::map jest zdecydowanie wolniejsza
 + std::map posiada klucz oraz wartosc, std::set posiada tylko klucz 
 - std::set posiada klucz oraz wartosc, std::map posiada tylko klucz
+
+# Damian Cz., pytania STL zestaw 3
+
+Czy jako kontenery mozemy wykorzystywac zwykle tablice?
++ tak, ale zwykle nie sa one klasami i nie udostepniaja tym samym nie udostepniaja funkcji składowych begin() i end()
+- mozna, ale do projektow w domu, zawodowo bylbys skazany na wieczne potepienie
+- nie jest to mozliwe
+- zadne z powyzszych
+
+W funkcji skladowej list forward_list Forwardlist:erase_after(const_iterator pos):
+- usuwa element bezposrednio za pozycjs iteratora pos
+- zwraca pozycje nastepnego elementu (lub wartosc end())
+- wywoluje destruktor wobec usuwanego elemntu
++ wszystkie powyzsze sa prawidlowe
+
+
+multiset od set rozni sie:
+- nazwa
++ w multiset elementy moga sie powtarzac
+- w multiset elementy sa nieposortowane
+- zadne z powyzszych
+
+sekcja przeznaczona do przechowywania zmiennych lokalnych to:
+- heap
++ stack
+- stack i heap
+- zadme z powyższych
+
+Capality zwraca:
+- iterator wskazujacy na element
+- referencje na ostatni element w kontenerze
+- minimalna liczbe elementow jaka moze pomiescic kontener bez  wykonywania realokacji pamieci
++ maksymalna dlugosc tablicy kontenera wyrazona w liczbie elementow
