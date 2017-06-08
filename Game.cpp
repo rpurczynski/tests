@@ -57,9 +57,9 @@ int Game::showResult()
 		finalPoints = 15;
 	}
 
-	std::string text = "\n\nTwój końcowy wynik to " + toString(scorePoints)
-			+ "/" + toString(questionsAsked) + ".\nBonusowych punktów "
-			+ toString(bonusPoints) + "\nRazem punktów "
+	std::string text = "\n\nTwoj koncowy wynik to " + toString(scorePoints)
+			+ "/" + toString(questionsAsked) + ".\nBonusowych punktow "
+			+ toString(bonusPoints) + "\nRazem punktow "
 			+ toString(scorePoints + bonusPoints) + "\n\nTwoja ocena to "
 			+ ocena[finalPoints] + "\n\n";
 
