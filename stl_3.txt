@@ -1,14 +1,14 @@
-# To jest format pliku w którym zapisujemy pytania
+# To jest format pliku w ktorym zapisujemy pytania
 # oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
-# Niech + oznacza prawidłową odpowiedź
-# Znak - oznacza niepoprawną
-# Quiz powinien być jednokrotnego wyboru.
+# Niech + oznacza prawidlowa odpowiedz
+# Znak - oznacza niepoprawna
+# Quiz powinien byc jednokrotnego wyboru.
 
 # Poziom 3
 
-# Proszę dopisywać swoje pytania
+# Prosze dopisywac swoje pytania
 
-# Paweł D., pytania STL zestaw 3
+# Pawel D., pytania STL zestaw 3
 multiset od set rozni sie:
 - tylko nazwa
 + w multiset wartosci moga sie powtarzac
@@ -36,7 +36,7 @@ Po wykonaniu mojIterator++;
 Dane w kontenerze vector:
 - na poczatku sa ciagle ale po dodaniu nowego elementu moga ulec fragmentacji
 - sa dzielone i lokowane w wolne miejsca pamieci
-+ sa ulozone w pamieci zawsze w sposob ciagły
++ sa ulozone w pamieci zawsze w sposob ciagly
 - zadne z powyzszych
 
 #Konrad A., pytania STL zestaw 3
@@ -70,6 +70,26 @@ Kontenery map oraz multimap:
 - Sa funkcja statyczna
 - Wszystkie odpowiedzi sa bledne
 
+#Rafał P
+
+Plik naglowkowy fstream.h odpowiada za:
+- dolaczenie klas umozliwiajacych realizacje C++ operacji we/wy
+- dolaczenie manipulatorow we/wy C++
++ dolaczenie klas umozliwiajacych realizacje C++ operacji we/wy na plikach
+- Wszystkie odpowiedzi sa poprawne
+
+Funkcja obslugi ekranu i klawiatury - void clrscr(void); odpowiada za:
+- kasowanie linii (tej z kursorem)
++ czyszczenie okna
+- wczytanie znaku z klawiatur
+- czyszczenia wszystkich zmiennych
+
+Plik naglowkowy errno.h odpowiada za:
+- definicje stalych
+- definicje manipulatorow we/wy C++
++ definicje kodow bledow
+- definicja stalych
+
 #Pytania Filip
 
 Iteracja oraz usuwanie elementu z wektora, co nalezy zrobic z iteratorem wektora po uzyciu funkcji erase:
@@ -90,7 +110,6 @@ W jaki sposob zadeklarowac wektor ponizszego typu: class CustomType { public: Cu
 - std::vector vec
 - std::vector<int> vec
 
-
 W przypadku tworzenia zbioru z niepowtarzalnymi elementami oraz struktura ktora przetrzymuje dodatkowe informacje np. lista uzytkownikow [std::string nazwa uzytkownika, wlasny typ: dane o uzytkowniku] jakiego kontenera powinnismy uzyc:
 - std::vector
 - std::list
@@ -102,3 +121,37 @@ Wytlumacz roznice miedzy std::map a std::set:
 - std::map jest zdecydowanie wolniejsza
 + std::map posiada klucz oraz wartosc, std::set posiada tylko klucz 
 - std::set posiada klucz oraz wartosc, std::map posiada tylko klucz
+
+# Damian Cz., pytania STL zestaw 3
+
+Czy jako kontenery mozemy wykorzystywac zwykle tablice?
++ tak, ale zwykle nie sa one klasami i nie udostepniaja tym samym nie udostepniaja funkcji składowych begin() i end()
+- mozna, ale do projektow w domu, zawodowo bylbys skazany na wieczne potepienie
+- nie jest to mozliwe
+- zadne z powyzszych
+
+W funkcji skladowej list forward_list Forwardlist:erase_after(const_iterator pos):
+- usuwa element bezposrednio za pozycjs iteratora pos
+- zwraca pozycje nastepnego elementu (lub wartosc end())
+- wywoluje destruktor wobec usuwanego elemntu
++ wszystkie powyzsze sa prawidlowe
+
+
+multiset od set rozni sie:
+- nazwa
++ w multiset elementy moga sie powtarzac
+- w multiset elementy sa nieposortowane
+- zadne z powyzszych
+
+sekcja przeznaczona do przechowywania zmiennych lokalnych to:
+- heap
++ stack
+- stack i heap
+- zadme z powyższych
+
+Capality zwraca:
+- iterator wskazujacy na element
+- referencje na ostatni element w kontenerze
+- minimalna liczbe elementow jaka moze pomiescic kontener bez  wykonywania realokacji pamieci
++ maksymalna dlugosc tablicy kontenera wyrazona w liczbie elementow
+

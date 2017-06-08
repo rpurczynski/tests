@@ -1,4 +1,4 @@
-# To jest format pliku w którym zapisujemy pytania
+# To jest format pliku w ktorym zapisujemy pytania
 # oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
 # Niech + oznacza prawidłową odpowiedź
 # Znak - oznacza niepoprawną
@@ -60,11 +60,11 @@ Funkcja void foo(int& x, int y, char * z) zwraca:
 - wskaznik
 + nic nie zwraca
 
-#Aby zadzialal kod: cout << Hello world; nalezy:
-#- dodac std:: przed cout lub dodac przed kodem using namespace std;
-#- dodac cudzyslowy do tekstu "Hello world"
-#- dodac #include <iostream> na poczatku pliku
-#+ wszystkie z powyzszych
+Aby zadzialal kod: cout << Hello world; nalezy:
+- dodac std:: przed cout lub dodac przed kodem using namespace std;
+- dodac cudzyslowy do tekstu "Hello world"
+- dodac #include <iostream> na poczatku pliku
++ wszystkie z powyzszych
 
 Kod: int i = 1; i++; ++i; i--; printf("%d", i); wyprintuje:
 - nic bo kod sie nie skompiluje
@@ -77,16 +77,16 @@ Kod: int i = 1; i++; ++i; i--; printf("%d", i); wyprintuje:
 Metoda to:
 + funkcja zamknieta w klasie;
 - baza danych
-- pętla 
+- petla 
 - nie istnieje takie pojecie w c++
 
-Aby wyświetlić ile zajmuje określony typ danych (np float) dla Twojego kompilatora użyjesz kodu:
+Aby wyswietlic ile zajmuje okreslony typ danych (np float) dla Twojego kompilatora uzyjesz kodu:
 + std::cout << sizeof( float ) << std::endl;
 - std::cout << size.float << std::endl;
 - std::cout << float (size) << std::endl;
 - std::cout << float( sizeof ) << std::endl;
 
-Zakres wartości zmiennej typu char to:
+Zakres wartosci zmiennej typu char to:
 - od 0 do 255
 - od 0 do 65535
 + od -128 do 127
@@ -106,7 +106,7 @@ Jak wyrazamy negacje w c++:
 
 #Konrad A., pytania cpp zestaw 1
 
-Jaki znak kończy wszystkie łańcuchy znakowe?
+Jaki znak konczy wszystkie lancuchy znakowe?
 - '\END'
 + '\0'
 - '.'
@@ -114,14 +114,14 @@ Jaki znak kończy wszystkie łańcuchy znakowe?
 
 Zmienna char przechowuje (nie wliczajac rzutowania):
 + litery, cyfry, znaki interpunkcyjne
-- tylko wartości logiczne true/false (prawda/fałsz)
-- przydział innego miejsca w pamięci dla zmiennej
+- tylko wartosci logiczne true/false (prawda/falsz)
+- przydzial innego miejsca w pamieci dla zmiennej
 - dane typu void
 
-Komentarze to tekst w kodzie źródłowym: 
-- który podlega kompilacji
-- który podlega kompilacji warunkowo
-+ który nie podlega kompilacji
+Komentarze to tekst w kodzie zrodlowym: 
+- ktory podlega kompilacji
+- ktory podlega kompilacji warunkowo
++ ktory nie podlega kompilacji
 - podlega kompilacji tymczasowej
 
 Liczba o pojedynczej precyzji to zmienna typu:
@@ -130,9 +130,90 @@ Liczba o pojedynczej precyzji to zmienna typu:
 - int
 - string
 
-Operacje przypisania dokonujemy za pomocą znaku:
+Operacje przypisania dokonujemy za pomoca znaku:
 + =
 - ==
 - +
 - *
 
+W danym fragmencie kodu: int main() { ... int k; std::cout << k << std::endl; ..} - Jaka wartosc "k" zostanie wyswietlona na ekran?
++ przypadkowa, smieci z pamieci
+- 0
+- 32767
+- -32767
+
+#Damian Cz., pytania cpp zestaw 1
+Funkcja, ktora nic nie zwraca ma przed nazwa:
+- int
++ void
+- static
+- bool
+
+Zmienna, ktora moze przechowac adres innej zmiennej to:
++ wskaznik
+- referencja
+- obiekt
+- rekurencja
+
+Ktora z dyrektyw sluzy do definiowania makr?
+- #include
++ #define
+- #pragma
+- *macro
+
+Czy mozna w jednej linii umiescic kilka instrukcji?
++ tak, nie jest to zalecane ze względu na nieczytelnosc kodu
+- tak, jednak niektore kompilatory moga sobie z takim kodem nie poradzic
+- nie
+- zadna z powyzszych odpowiedzi nie jest prawidłowa
+
+Do czego słuzy linker? 
++ do połączenia kodu programu z okrezlonymi bibliotekami
+- do przetlumaczenia kodu z jezyka programowania na jezyk procesora
+- do tworzenia plikow naglowkowych
+- zadna z powyzszych odpowiedzi nie jest prawidlowa
+
+Powolanie do zycia obiektu obiektu nastepuje przez jego:
+- definicję
++ deklaracje
+- rekurencje
+- zadne z powyzszych
+
+Co znaczy, ze dany operator ma wyzszy priorytet niz inny?
+- jego operacja wykonywana jest z pominieciem pozostalych
+- oznacza, ze stosowany jest wyłacznie w petli for
++ zostanie wykonany najpierw
+- zadna z powyzszych odpowiedzi nie jest prawidlowa
+
+
+#Magdalena B., pytania cpp zestaw 1
+
+Ktora z ponizszych struktur nie jest petla stosowana w jezyku C++?
+- for
+- do while
++ repeat until
+- while
+
+Jak wyglada instrukcja poinformowania kompilatora o tym, ze wszystko z przestrzeni std nie wymaga przedrostka?
++ using namespace std;
+- using std;
+- namespace std;
+- namespace using std;
+
+Kto jest tworca jezyka C++?
+- Bill Gates
+- Dennis Ritchie
++ Bjarne Stroustrup
+- Brian Kernighan
+
+Typ zmiennych float sluzy do przechowywania:
+- znakow
+- liczb calkowitych
++ liczb zmiennoprzecinkowych
+- lancuchow znakow
+
+Jaka jest pelna nazwa STL?
++ Standard Template Library
+- Standard Topics Library
+- System Template Library
+- System Topics Library
