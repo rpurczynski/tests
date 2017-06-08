@@ -1,14 +1,14 @@
-# To jest format pliku w którym zapisujemy pytania
+# To jest format pliku w ktorym zapisujemy pytania
 # oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
-# Niech + oznacza prawidłową odpowiedź
-# Znak - oznacza niepoprawną
-# Quiz powinien być jednokrotnego wyboru.
+# Niech + oznacza prawidlowa odpowiedz
+# Znak - oznacza niepoprawna
+# Quiz powinien byc jednokrotnego wyboru.
 
 # Poziom 1
 
-# Proszę dopisywać swoje pytania
+# Prosze dopisywac swoje pytania
 
-# Paweł D., pytania STL zestaw 1
+# Pawel D., pytania STL zestaw 1
 array, vector, list to:
 - iteratory
 + kontenery
@@ -41,18 +41,18 @@ rbegin to
 
 #Pytania Filip
 
-Do kontenerów STL nalezą:
+Do kontenerow STL naleza:
 - map
 - multiset
 - set
-+ wszystkie z wyżej wymienionych
++ wszystkie z wyzej wymienionych
 
 Ktora z funkcji nie jest obslugiwana przez stack?
 + reverse()
 - empty()
 - size()
 - push()
- 
+
 Do obszarow pamieci dynamicznej nalezy:
 - stack
 + heap
@@ -71,7 +71,6 @@ Co zrobi funkcja push() w queque:
 - wyznaczy srodek kolejki i tam doda element
 - nic nie doda poniewaz funkcja push() nie dziala dla queque
 
-
 #Konrad A., pytania STL zestaw 1
 Kontener to:
 + struktura danych
@@ -85,7 +84,7 @@ Aby moc skorzystac z kontenera stos w przestrzeni std w C++, nalezy dolaczyc pli
 + #include <stack>
 - zadne z powyzszych
 
-Metoda ktora służy do odczytania lub modyfikacji wartości umieszczonej na szczycie stosu to:
+Metoda ktora sluzy do odczytania lub modyfikacji wartosci umieszczonej na szczycie stosu to:
 - push
 + top
 - cout
@@ -104,7 +103,6 @@ Funkcja bez argumentow to:
 - funkcja unarna
 
 #Magdalena B., pytania stl zestaw 1
-
 
 Ktory z plikow naglowkowych nie znajduje sie w bibliotece standardowej C++?
 + <instream>
@@ -126,7 +124,7 @@ Wybierz poprawny sposob usuwania elementow (np. 5) z poczatku kolejki queue <int
 
 Ktory z ponizszych aspektow dotyczy kontenera lista? 
 - dostep tylko przez iteratory
-- dodawanie i usuwanie elementów jest bardzo szybkie i odbywa się w stałym czasie
+- dodawanie i usuwanie elementow jest bardzo szybkie i odbywa sie w stalym czasie
 - adresy elementow niezmienne
 + wszystkie powyzej
 
@@ -135,5 +133,5 @@ Wybierz poprawny sposob dodawania elementow (np. 5) na koncu wektora vector<int>
 - values[i] = 5;
 + values.push_back(5);
 - values.pop_back(5);
- 
+
 
