@@ -136,13 +136,30 @@ Operacje przypisania dokonujemy za pomoca znaku:
 - +
 - *
 
+W danym fragmencie kodu: int main() { ... int k; std::cout << k << std::endl; ..} - Jaka wartosc "k" zostanie wyswietlona na ekran?
++ przypadkowa, smieci z pamieci
+- 0
+- 32767
+- -32767
+
 #Damian Cz., pytania cpp zestaw 1
-	
 Funkcja, ktora nic nie zwraca ma przed nazwa:
 - int
 + void
 - static
 - bool
+
+Zmienna, ktora moze przechowac adres innej zmiennej to:
++ wskaznik
+- referencja
+- obiekt
+- rekurencja
+
+Ktora z dyrektyw sluzy do definiowania makr?
+- #include
++ #define
+- #pragma
+- *macro
 
 Czy mozna w jednej linii umiescic kilka instrukcji?
 + tak, nie jest to zalecane ze względu na nieczytelnosc kodu
@@ -200,4 +217,3 @@ Jaka jest pelna nazwa STL?
 - Standard Topics Library
 - System Template Library
 - System Topics Library
-
