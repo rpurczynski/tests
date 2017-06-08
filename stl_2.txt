@@ -1,14 +1,14 @@
-# To jest format pliku w którym zapisujemy pytania
+# To jest format pliku w ktorym zapisujemy pytania
 # oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
-# Niech + oznacza prawidłową odpowiedź
-# Znak - oznacza niepoprawną
-# Quiz powinien być jednokrotnego wyboru.
+# Niech + oznacza prawidlowa odpowiedz
+# Znak - oznacza niepoprawna
+# Quiz powinien byc jednokrotnego wyboru.
 
 # Poziom 2
 
-# Proszę dopisywać swoje pytania
+# Prosze dopisywac swoje pytania
 
-# Paweł D., pytania STL zestaw 2
+# Pawel D., pytania STL zestaw 2
 iterator end wskazuje:
 - na ostatni element
 + 1 miejsce za ostatni element
@@ -24,10 +24,10 @@ front daje nam dostep do
 Set zawiera elementy:
 - nieposortowane i unikalne
 + posortowane i unikalne
-- posortowane, mogą się powtarzać
-- nieposortowane, mogą się powtarzać
+- posortowane, moga sie powtarzac
+- nieposortowane, moga sie powtarzac
 
-Wielkość vectora:
+Wielkosc vectora:
 + moze ulegac zmianie
 - jest stala
 - moze ulec zmianie tylko raz
@@ -46,7 +46,7 @@ Kontener bitset to:
 - pole bitowe zawierajace ograniczona, lecz nieustalona z gory liczbe bitow
 - pole bitowe zawierajace dowolna, nieustalona z gory liczbe bitow
 
-Co robi konstruktor domyślny bitser<bits>::bitset():
+Co robi konstruktor domyslny bitser<bits>::bitset():
 + Tworzy zestaw bitow zainicjalizowany zerami
 - Tworzy zmienna o dwoch bitach
 - Dodaje do siebie dwie liczby
@@ -72,7 +72,7 @@ Slowo kluczowe noexcept oznacza:
 
 #Pytania Filip
 
-Złożoność liniowa oznaczana jest:
+Zlozonosc liniowa oznaczana jest:
 - O(1)
 - O(log(n))
 + O(n)
@@ -133,5 +133,3 @@ Wybierz poprawny sposob usuwania elementow z konca wektora vector<int> values:
 - values.delete();
 - values.push_back();
 + values.pop_back();
-
-
