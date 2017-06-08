@@ -40,8 +40,8 @@ int Question::ask(int number, int allNumber)
 	}
 	else
 	{
-		UserInOut::setOutput(std::string("Niestety źle!") + "\n");
-		UserInOut::setOutput(std::string("Poprawna odpowiedź to: ") + getProperAnswer() + "\n");
+		UserInOut::setOutput(std::string("Niestety zle!") + "\n");
+		UserInOut::setOutput(std::string("Poprawna odpowiedz to: ") + getProperAnswer() + "\n");
 		return 0;
 	}
 }
@@ -52,7 +52,7 @@ int Question::getUserAnswer()
 
 	do
 	{
-		UserInOut::setOutput("Zaznacz odpowiedź 1|2|3|4: ");
+		UserInOut::setOutput("Zaznacz odpowiedz 1|2|3|4: ");
 		userAnswer = UserInOut::getInput();
 
 	} while (userAnswer != "1" && userAnswer != "2" && userAnswer != "3"
