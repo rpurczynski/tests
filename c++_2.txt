@@ -133,6 +133,36 @@ Operator zakresu to:
 - "/"
 - "^"
 
+Konstruktor:
++ jest wywolywany w momencie tworzenia obiektu
+- musi posiadac przynajmniej jeden parametr
+- musi byc zdefiniowany w kazdej klasie
+- jest wywolywany w momencie niszczenia obiektu
+
+Operacje powodujace wystapienie wyjatku powinny byc umieszczone w bloku:
+- catch
++ try
+- exception
+- throw
+
+Klasa, od ktorej inna klasa dziedziczy to:
+- predykat
+- przewodnik
+- klasa dziedziczna
++ klasa bazowa
+
+Aby zabronic klasie pochodnej dostepu do elementow klasy bazowej uzyjemy:
+- static
+- public
++ private
+- protected
+
+Destruktor poprzedzony jest znakiem:
+- !
+- ?
++ ~
+- &
+
 #Damian Cz., pytania cpp zestaw 2
 
 Inicjalizacja int tablica[3]={1,2}; spowoduje ze: 
@@ -196,4 +226,3 @@ Jezyk programowania obiektowego to:
 - Smalltalk
 - C++
 + wszystkie powyzej
-
