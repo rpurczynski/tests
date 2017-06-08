@@ -1,12 +1,12 @@
-# To jest format pliku w którym zapisujemy pytania
+# To jest format pliku w ktorym zapisujemy pytania
 # oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
-# Niech + oznacza prawidłową odpowiedź
-# Znak - oznacza niepoprawną
-# Quiz powinien być jednokrotnego wyboru.
+# Niech + oznacza prawidlowa odpowiedz
+# Znak - oznacza niepoprawna
+# Quiz powinien byc jednokrotnego wyboru.
 
 # Poziom 3
 
-# Proszę dopisywać swoje pytania
+# Prosze dopisywac swoje pytania
 
 #Pytania Angelika
 
@@ -40,7 +40,7 @@ class child: public parent1, public parent2 { } to przyklad:
 - dziedziczenia wirtualnego
 - dziedziczenia hierarhicznego
 
-#Paweł D., pytania cpp zestaw 3
+#Pawel D., pytania cpp zestaw 3
 Tworzac zmienna ze slowem const mozemy powiedziec, ze:
 + bedzie ona dla nas "read only"
 - bedzie ona dla nas "write only"
@@ -72,7 +72,7 @@ Destruktor dla class MojaKlasa to:
 - &MojaKlasa();
 
 #Konrad A., pytania cpp zestaw 3
-W jaki sposób dokonujemy jawnego wywołania konstruktora:
+W jaki sposob dokonujemy jawnego wywolania konstruktora:
 + nazwa_klasy(argumenty)
 - obiekt.funkcja_skladowa(argumenty)
 - nazwa_klasy::funkcja(argumenty)
@@ -84,31 +84,25 @@ Funkcja czysto wirtualna to taka funkcja ktora:
 - nie ma takiej funkcji
 - wszystkie sa poprawne
 
-Klasa, od której inna klasa dziedziczy to:
+Klasa, od ktorej inna klasa dziedziczy to:
++ klasa bazowa
 - predykat
 - przwodnik
 - klasa pierwotna
-+ klasa bazowa
 
 Wywolanie metody rysuj na rzecz obiektu pisak egzemplarza klasy malarz to:
++ pisak.rysuj();
 - rysuj();
 - malarz.pisak();
-+ pisak.rysuj();
 - malarz.rysuj();
 
 Konstruktor sluzy do:
-- odczytu pol klasy
 + inicjalizacji wlasciwosci
+- odczytu pol klasy
 - usuwania obiektu z pamieci
 - konstruowania metod
 
 #Rafał P
-
-Preprocesor to:
-- program modyfikujacy, ktory ma za zadanie przetworzenie tekstu wejsciowego na dowolny tekst wyjsciowy 
-+ program interpretujacy, ktory ma za zadanie przetworzenie tekstu wejsciowego na okreslony tekst wyjsciowy 
-- program implementujacy, ktory ma za zadanie utworzenie tekstu wyjsciowego 
-- czesc skladowa procesora, majaca za zadanie uruchamianie programu
 
 Dyrektywy kompilacji warunkowej:
 + pozwalaja wybiorczo kompilowac fragmenty kodu zrodlowego
@@ -127,4 +121,113 @@ W jezyku C++ jest mozliwosc deklarowania funkcji ktore posiadaja takie same nazw
 - funkcje przeladowane
 + obie odpowiedzi sa prawidlowe
 - zadna odpowiedz nie jest prawidlowa
+
+#Magdalena B., pytania cpp zestaw 3
+
+Ktorego operatora nie mozna przeladowac?
++ ::
+- %
+- /
+- ()
+
+Ktory wskaznik przechowuje zawsze aktualny adres aktywnego obiektu?
+- new
+- auto_ptr
++ this
+- ptr
+
+Ktory specyfikator pamieci masowej jest uzywany do modyfikowania zmiennej skladowej, nawet jesli obiekt klasy jest obiektem stalym?
++ mutable
+- register
+- static
+- auto
+
+Gdzie w pamieci przechowywane sa obiekty utworzone przy uzyciu operatora new?
+- stos
++ sterta
+- cache
+- inny obszar pamieci
+
+Ktory zapis przedstawia czysta funkcje wirtualna?
+- virtual void f()=0 {}
+- void virtual f()=0 {}
+- virtual void f() {} = 0;
++ zaden z powyzszych
+
+#Pytania Filip
+Po co sa stosowane destruktory wirtualne:
++ aby zapewnic wywolanie wszystkich destruktorow klas pochodnych
+- aby w czasie destrukcji obiektu zostal wywolany rowniez destruktor klasy bazowej
+- aby uniknac bledu kompilacji
+- zadne z powyzszych
+
+Obiekty okreslone jako protected sa dostepne dla:
++ tej klasy oraz klas dziedziczacych
+- tylko dla tej klasy
+- dla wszystkich
+- zadne z powyzszych
+
+Gdzie tworzone sa obiekty przy pomocy operatora 'new':
++ na stercie
+- na stosie
+- w zaleznosci gdzie jest wolna pamiec
+- zadne z powyzszych
+
+Co sie stanie jezeli w aplikacji zostanie uzyta biblioteka ale nie zostanie ona zlinkowana
++ bedzie blad linkowania
+- nic, kompilator sam zlinkuje
+- nastapi blad kompilacji
+- w momencie wywolania funkcji pojawi sie komunikat: segmentation fault
+
+Jak uzyskac dostep do elementow skladowych wskaznika:
+- .
++ ->
+- *
+- zadne z powyzszych
+
+#Zestaw 3
+
+Parametrem konstruktora kopiujacego jest:
+- wartosc obiektu
++ referencja do obiektu
+- wskaznik do obiektu
+- nie ma parametrow
+
+Ktory operator jest uzywany do dostepu do struktury przez wskaznik?
++ ->
+- >>
+- ::
+- .
+
+Ile konstruktorow domyslnych dozwolonych jest dla 1 klasy?
++ jeden
+- dwa
+- trzy
+- nieograniczona ilosc
+
+#Damian Cz., pytania cpp zestaw 3
+
+W klasie std:string funkcja size:
+- wskazuje rozmiar uzytej pamieci dla danego stringu
++ zwraca liczbe znakow danego stringa
+- wskazuje rozmiar pamieci pojedynczego stringa
+- w tej kasie nie jest mozliwa do uzycia
+
+Czy funkcja moze wywoływax sama siebie: 
++ tak, proces taki nazywa się rekurencja
+- tak, proces taki nazywa się polimorfizmem
+- tak, ale dopiero w C++ 14
+- nie, nie jest to mozliwe
+
+Czy mozna stworzyc w klasie funkcje skladowa o takiej samej nazwie, jak istniejaca funkcja globalna? 
++ tak, bedzie to tzw. zasłonięcie nazwy
+- jest to bład
+- nie jest to mozliwe
+- tak, ale musimy stworzyc inne argumenty formalne
+
+Funkcja czysto wirtualna to taka funkcja ktora:
++ nie ma definicji
+- nie ma deklaracji
+- nie przewiduje argumentow
+- wszystkie powyzsze odpowiedzi sa prawidłowe
 
