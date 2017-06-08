@@ -70,6 +70,26 @@ Kontenery map oraz multimap:
 - Sa funkcja statyczna
 - Wszystkie odpowiedzi sa bledne
 
+#Rafał P
+
+Plik naglowkowy fstream.h odpowiada za:
+- dolaczenie klas umozliwiajacych realizacje C++ operacji we/wy
+- dolaczenie manipulatorow we/wy C++
++ dolaczenie klas umozliwiajacych realizacje C++ operacji we/wy na plikach
+- Wszystkie odpowiedzi sa poprawne
+
+Funkcja obslugi ekranu i klawiatury - void clrscr(void); odpowiada za:
+- kasowanie linii (tej z kursorem)
++ czyszczenie okna
+- wczytanie znaku z klawiatur
+- czyszczenia wszystkich zmiennych
+
+Plik naglowkowy errno.h odpowiada za:
+- definicje stalych
+- definicje manipulatorow we/wy C++
++ definicje kodow bledow
+- definicja stalych
+
 #Pytania Filip
 
 Iteracja oraz usuwanie elementu z wektora, co nalezy zrobic z iteratorem wektora po uzyciu funkcji erase:
@@ -134,3 +154,4 @@ Capality zwraca:
 - referencje na ostatni element w kontenerze
 - minimalna liczbe elementow jaka moze pomiescic kontener bez  wykonywania realokacji pamieci
 + maksymalna dlugosc tablicy kontenera wyrazona w liczbie elementow
+
