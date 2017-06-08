@@ -133,3 +133,35 @@ Operator zakresu to:
 - "/"
 - "^"
 
+#Magdalena B., pytania cpp zestaw 2
+
+Jak zadeklarowac funkcje typu void bez zadnych argumentow?
++ void nazwa();
+- nazwa () void;
+- void () nazwa ();
+- nazwa void ();
+
+Wybierz inna definicje obiektow:
+- czlonek klasy
+- wspolnik klasy
+- atrybut klasy
++ instancja klasy
+
+Wybierz, ktory to operator zasiegu:
+- ->
++ ::
+- -
+- :
+
+Wybierz kompilator C++ dla systemu Linux:
+- vc++ 
+- gpp
+- Borland
++ g++ 
+
+Jezyk programowania obiektowego to:
+- Simula
+- Smalltalk
+- C++
++ wszystkie powyzej
+
