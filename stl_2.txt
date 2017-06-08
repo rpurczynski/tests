@@ -102,6 +102,33 @@ Rbegin zwraca iterator odwrotny wskazujacy na:
 + ostatni element
 - zadna z powyzszych 
 
+#/Rafał P
+
+Za dzialania na lancuchach znakow odpowiada plik naglowkowy:
+- time.h
++ string.h
+- stdio.h
+- vector.h
+
+Funkcja scanf() sluzy do:
+- wyprowadzania danych na ekran
++ wczytania danych z klawiatury
+- podania polecenia do skanera
+- wprowadzania danych do programu
+
+Za definicje klas umozliwiajacych realizacje C++ operacji wejscia/wyjscia odpowiada plik naglowkowy:
+- stdio.h
++ iostream.h
+- iomanip.h
+- string.h
+
+Znacznikiem konca lancucha znakow jest znak o kodzie:
+- %0
++ \0
+- #0
+- \end
+
+
 #Magdalena B., pytania stl zestaw 2
 
 Kontener w STL to:
