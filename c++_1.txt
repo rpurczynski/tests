@@ -136,3 +136,36 @@ Operacje przypisania dokonujemy za pomoca znaku:
 - +
 - *
 
+#Magdalena B., pytania cpp zestaw 1
+
+Ktora z ponizszych struktur nie jest petla stosowana w jezyku C++?
+- for
+- do while
++ repeat until
+- while
+
+Jak wyglada instrukcja poinformowania kompilatora o tym, ze wszystko z przestrzeni std nie wymaga przedrostka?
++ using namespace std;
+- using std;
+- namespace std;
+- namespace using std;
+
+Kto jest tworca jezyka C++?
+- Bill Gates
+- Dennis Ritchie
++ Bjarne Stroustrup
+- Brian Kernighan
+
+Typ zmiennych float sluzy do przechowywania:
+- znakow
+- liczb calkowitych
++ liczb zmiennoprzecinkowych
+- lancuchow znakow
+
+Jaka jest pelna nazwa STL?
++ Standard Template Library
+- Standard Topics Library
+- System Template Library
+- System Topics Library
+
+
