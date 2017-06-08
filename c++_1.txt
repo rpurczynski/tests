@@ -136,6 +136,26 @@ Operacje przypisania dokonujemy za pomoca znaku:
 - +
 - *
 
+#Rafał P
+
+W jezyku C++ znakiem "#" rozpoczynaja sie:
+- deklaracje typow danych
++ dyrektywy preprocesora
+- deklaracje zmiennych globalnych
+- deklaracje obiektow w klasach
+
+Instrukcja zlozona zawarta jest w nawiasach:
+- ( ) (nawiasy zwykle)
++ { } (nawiasy klamrowe)
+- [ ] (nawiasy prostokatne)
+- zadna z powyzszych
+
+Funkcje rekurencyjne sa funkcjami:
++ ktore w swoim ciele wywoluja sama siebie
+- ktore w swoim ciele wywoluja inne funkcje
+- ktore w swoim ciele wywoluja okreslona funkcje
+- ktore nie wywoluja nic
+
 W danym fragmencie kodu: int main() { ... int k; std::cout << k << std::endl; ..} - Jaka wartosc "k" zostanie wyswietlona na ekran?
 + przypadkowa, smieci z pamieci
 - 0
